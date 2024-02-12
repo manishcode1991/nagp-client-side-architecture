@@ -1,0 +1,672 @@
+[
+  {
+    "policy_number": "P001",
+    "first_name": "John",
+    "last_name": "Doe",
+    "dob": "1980-05-15",
+    "email_address": "john.doe@example.com",
+    "phone_number": "+1 123-456-7890",
+    "policy_effective_date": "2022-01-01",
+    "policy_expiry_date": "2022-12-31",
+    "total_amount": 1200.50,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-08-28",
+        "premium_amount": 105,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P002",
+    "first_name": "Alice",
+    "last_name": "Smith",
+    "dob": "1985-08-20",
+    "email_address": "alice.smith@example.com",
+    "phone_number": "+1 234-567-8901",
+    "policy_effective_date": "2022-02-01",
+    "policy_expiry_date": "2022-11-30",
+    "total_amount": 1300.75,
+    "premium_information": [
+      {
+        "premium_date": "2022-07-29",
+        "premium_amount": 115,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-08-28",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2023-01-23",
+        "premium_amount": 125,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P003",
+    "first_name": "Michael",
+    "last_name": "Johnson",
+    "dob": "1977-03-10",
+    "email_address": "michael.johnson@example.com",
+    "phone_number": "+1 345-678-9012",
+    "policy_effective_date": "2022-03-01",
+    "policy_expiry_date": "2022-10-31",
+    "total_amount": 1400.25,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P004",
+    "first_name": "Emily",
+    "last_name": "Brown",
+    "dob": "1990-12-25",
+    "email_address": "emily.brown@example.com",
+    "phone_number": "+1 456-789-0123",
+    "policy_effective_date": "2022-04-01",
+    "policy_expiry_date": "2022-09-30",
+    "total_amount": 1500.00,
+    "premium_information": [
+      {
+        "premium_date": "2022-09-30",
+        "premium_amount": 95,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-08-31",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-07-31",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-06-30",
+        "premium_amount": 105,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P005",
+    "first_name": "Daniel",
+    "last_name": "Martinez",
+    "dob": "1982-07-05",
+    "email_address": "daniel.martinez@example.com",
+    "phone_number": "+1 567-890-1234",
+    "policy_effective_date": "2022-05-01",
+    "policy_expiry_date": "2022-08-31",
+    "total_amount": 1600.50,
+    "premium_information": [
+      {
+        "premium_date": "2022-08-31",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-07-31",
+        "premium_amount": 115,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P006",
+    "first_name": "Sophia",
+    "last_name": "Anderson",
+    "dob": "1988-09-30",
+    "email_address": "sophia.anderson@example.com",
+    "phone_number": "+1 678-901-2345",
+    "policy_effective_date": "2022-06-01",
+    "policy_expiry_date": "2022-07-31",
+    "total_amount": 1700.75,
+    "premium_information": [
+      {
+        "premium_date": "2022-07-31",
+        "premium_amount": 115,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P007",
+    "first_name": "Matthew",
+    "last_name": "Taylor",
+    "dob": "1975-02-15",
+    "email_address": "matthew.taylor@example.com",
+    "phone_number": "+1 789-012-3456",
+    "policy_effective_date": "2022-07-01",
+    "policy_expiry_date": "2022-06-30",
+    "total_amount": 1800.25,
+    "premium_information": [
+      {
+        "premium_date": "2022-06-30",
+        "premium_amount": 115,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-05-30",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-04-30",
+        "premium_amount": 110,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-03-31",
+        "premium_amount": 95,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P008",
+    "first_name": "Olivia",
+    "last_name": "Wilson",
+    "dob": "1984-11-10",
+    "email_address": "olivia.wilson@example.com",
+    "phone_number": "+1 890-123-4567",
+    "policy_effective_date": "2022-08-01",
+    "policy_expiry_date": "2022-05-31",
+    "total_amount": 1900.00,
+    "premium_information": [
+      {
+        "premium_date": "2022-05-31",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-04-30",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-03-30",
+        "premium_amount": 110,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-02-28",
+        "premium_amount": 95,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-01-28",
+        "premium_amount": 115,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2021-12-28",
+        "premium_amount": 105,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P009",
+    "first_name": "James",
+    "last_name": "Thomas",
+    "dob": "1979-06-20",
+    "email_address": "james.thomas@example.com",
+    "phone_number": "+1 901-234-5678",
+    "policy_effective_date": "2022-09-01",
+    "policy_expiry_date": "2022-04-30",
+    "total_amount": 2000.50,
+    "premium_information": [
+      {
+        "premium_date": "2022-04-30",
+        "premium_amount": 95,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-03-31",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-02-28",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-01-31",
+        "premium_amount": 95,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P010",
+    "first_name": "Emma",
+    "last_name": "White",
+    "dob": "1992-04-10",
+    "email_address": "emma.white@example.com",
+    "phone_number": "+1 012-345-6789",
+    "policy_effective_date": "2022-10-01",
+    "policy_expiry_date": "2022-03-31",
+    "total_amount": 2100.75,
+    "premium_information": [
+      {
+        "premium_date": "2022-03-31",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-02-28",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-01-31",
+        "premium_amount": 110,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P011",
+    "first_name": "William",
+    "last_name": "Martin",
+    "dob": "1983-01-05",
+    "email_address": "william.martin@example.com",
+    "phone_number": "+1 123-456-7890",
+    "policy_effective_date": "2022-11-01",
+    "policy_expiry_date": "2022-02-28",
+    "total_amount": 2200.25,
+    "premium_information": [
+      {
+        "premium_date": "2022-02-28",
+        "premium_amount": 95,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-01-31",
+        "premium_amount": 105,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P012",
+    "first_name": "Isabella",
+    "last_name": "Garcia",
+    "dob": "1986-08-15",
+    "email_address": "isabella.garcia@example.com",
+    "phone_number": "+1 234-567-8901",
+    "policy_effective_date": "2022-12-01",
+    "policy_expiry_date": "2022-01-31",
+    "total_amount": 2300.00,
+    "premium_information": [
+      {
+        "premium_date": "2022-01-31",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2021-12-31",
+        "premium_amount": 105,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P013",
+    "first_name": "David",
+    "last_name": "Lee",
+    "dob": "1978-07-20",
+    "email_address": "david.lee@example.com",
+    "phone_number": "+1 345-678-9012",
+    "policy_effective_date": "2023-01-01",
+    "policy_expiry_date": "2023-12-31",
+    "total_amount": 3800.50,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-08-28",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-07-29",
+        "premium_amount": 115,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P014",
+    "first_name": "Ava",
+    "last_name": "Rodriguez",
+    "dob": "1991-03-10",
+    "email_address": "ava.rodriguez@example.com",
+    "phone_number": "+1 456-789-0123",
+    "policy_effective_date": "2023-02-01",
+    "policy_expiry_date": "2023-11-30",
+    "total_amount": 3900.75,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-08-28",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-07-29",
+        "premium_amount": 115,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-06-30",
+        "premium_amount": 125,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-05-31",
+        "premium_amount": 135,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P015",
+    "first_name": "Mia",
+    "last_name": "Gonzalez",
+    "dob": "1987-09-25",
+    "email_address": "mia.gonzalez@example.com",
+    "phone_number": "+1 567-890-1234",
+    "policy_effective_date": "2023-03-01",
+    "policy_expiry_date": "2023-10-31",
+    "total_amount": 4000.25,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-08-28",
+        "premium_amount": 105,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-07-29",
+        "premium_amount": 115,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-06-30",
+        "premium_amount": 125,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P016",
+    "first_name": "Alexander",
+    "last_name": "Perez",
+    "dob": "1980-11-15",
+    "email_address": "alexander.perez@example.com",
+    "phone_number": "+1 678-901-2345",
+    "policy_effective_date": "2023-04-01",
+    "policy_expiry_date": "2023-09-30",
+    "total_amount": 4100.00,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-08-28",
+        "premium_amount": 105,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P017",
+    "first_name": "Charlotte",
+    "last_name": "Hernandez",
+    "dob": "1984-05-20",
+    "email_address": "charlotte.hernandez@example.com",
+    "phone_number": "+1 789-012-3456",
+    "policy_effective_date": "2023-05-01",
+    "policy_expiry_date": "2023-08-31",
+    "total_amount": 4200.50,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-09-27",
+        "premium_amount": 95,
+        "method": "Offline"
+      }
+    ]
+  },
+  {
+    "policy_number": "P018",
+    "first_name": "Amelia",
+    "last_name": "King",
+    "dob": "1993-01-10",
+    "email_address": "amelia.king@example.com",
+    "phone_number": "+1 890-123-4567",
+    "policy_effective_date": "2023-06-01",
+    "policy_expiry_date": "2023-07-31",
+    "total_amount": 4300.75,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P019",
+    "first_name": "Evelyn",
+    "last_name": "Scott",
+    "dob": "1978-08-30",
+    "email_address": "evelyn.scott@example.com",
+    "phone_number": "+1 901-234-5678",
+    "policy_effective_date": "2023-07-01",
+    "policy_expiry_date": "2023-06-30",
+    "total_amount": 4400.25,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      },
+      {
+        "premium_date": "2022-10-26",
+        "premium_amount": 110,
+        "method": "Online"
+      }
+    ]
+  },
+  {
+    "policy_number": "P020",
+    "first_name": "Abigail",
+    "last_name": "Green",
+    "dob": "1982-06-25",
+    "email_address": "abigail.green@example.com",
+    "phone_number": "+1 012-345-6789",
+    "policy_effective_date": "2023-08-01",
+    "policy_expiry_date": "2023-05-31",
+    "total_amount": 4500.50,
+    "premium_information": [
+      {
+        "premium_date": "2022-12-24",
+        "premium_amount": 115,
+        "method": "Online"
+      },
+      {
+        "premium_date": "2022-11-25",
+        "premium_amount": 105,
+        "method": "Offline"
+      }
+    ]
+  }
+]
