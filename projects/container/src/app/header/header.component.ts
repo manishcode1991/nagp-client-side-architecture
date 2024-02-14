@@ -14,15 +14,17 @@ export class HeaderComponent {
     
   }
   public ngOnInit(): void {
-    setTimeout(() => {
-      this.current_time = "";
-    }, 2000); 
+
 
   }
   listenCustomEvent() {
     window.addEventListener("current_time", (dataReceived: any) => {
       this.current_time = dataReceived.detail.message
+      setTimeout(() => {
+        this.current_time = "";
+      }, 2000); 
     })
+
   }
 
 }
