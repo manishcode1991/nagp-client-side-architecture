@@ -2,46 +2,8 @@
   <div class="row justify-content-center">
 
     <div class="col-md-12">
-      <h3 class="text-center">Microfrontend for Premium: Hosted on Port 4400</h3>
-      <div class="card">
-        <div class="card-header bg-primary text-white">
+      <h3 class="text-center">Microfrontend for Premium</h3>
 
-          <h5 class="card-title mb-0">Policy Details</h5>
-        </div>
-        <div class="card-body">
-          <dl class="row">
-            <div class="col-sm-6">
-              <dt>Policy Number:</dt>
-              <dd>{{ policyDetails.policy_number }}</dd>
-
-              <dt>First Name:</dt>
-              <dd>{{ policyDetails.first_name }}</dd>
-
-              <dt>Last Name:</dt>
-              <dd>{{ policyDetails.last_name }}</dd>
-
-              <dt>Date of Birth:</dt>
-              <dd>{{ policyDetails.dob }}</dd>
-            </div>
-            <div class="col-sm-6">
-              <dt>Email Address:</dt>
-              <dd>{{ policyDetails.email_address }}</dd>
-
-              <dt>Phone Number:</dt>
-              <dd>{{ policyDetails.phone_number }}</dd>
-
-              <dt>Policy Effective Date:</dt>
-              <dd>{{ policyDetails.policy_effective_date }}</dd>
-
-              <dt>Policy Expiry Date:</dt>
-              <dd>{{ policyDetails.policy_expiry_date }}</dd>
-
-              <dt>Total Amount:</dt>
-              <dd>${{ policyDetails.total_amount }}</dd>
-            </div>
-          </dl>
-        </div>
-      </div>
 
       <div class="card mt-4">
         <div class="card-header bg-success text-white">
@@ -65,6 +27,54 @@
               </tr>
             </tbody>
           </table>
+        </div>
+
+        <div class="mt-4">
+          <div class="text-center ml-4">
+            <h3 class="text-center">Communication</h3>
+            <h5 class="p-1">We've established communication between Micro Frontend (MFE) and Container. By clicking a
+              button, we trigger the sending of a current time to the Container application, which is running on a
+              separate port.</h5>
+            <div class="text-center">
+              <button class="btn btn-primary  text-center" (click)="sendMessage()">Send Message</button>
+              <p class="mt-3">Click the button and see on header</p>
+            </div>
+            
+          </div>
+         
+        </div>
+
+        <div class="mt-4">
+          <div class="text-center ml-4">
+            <h3 class="text-center">Web Worker Demo</h3>
+            <h5 class="p-4">We've created a web worker to efficiently generate prime numbers from 1 to 10 thousand. This
+              task is
+              computationally intensive, so leveraging a web worker helps to offload this heavy operation and maintain
+              the
+              responsiveness of the user interface.</h5>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-primary mt-3 text-center" (click)="genearatePrimeNumber()">Generate Prime
+              Numbers</button>
+            <p class="mt-3">Click the button and wait for the prime numbers to be generated.</p>
+          </div>
+        </div>
+
+        <div class="container mt-5" *ngIf="result?.length">
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+              <div class="card" style="height: 300px; overflow-y: auto;">
+                <div class="card-header">
+                  Prime Numbers List
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item" *ngFor="let number of result">
+                    {{ number }}
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

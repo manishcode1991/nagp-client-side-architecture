@@ -15,7 +15,7 @@ export const routes: Routes = [
 
   },
   {
-    path: 'premium/:policy_no',
+    path: 'premium',
     loadChildren: () => import("premium/PayModule").then(m => m.PayModule),
 
   },

@@ -3,8 +3,8 @@ const { shareAll, withModuleFederationPlugin } = require('@angular-architects/mo
 const webpackConfig  = withModuleFederationPlugin({
   filename: "remoteEntry.js",
   remotes: {
-    "insurance": "http://localhost:4300/remoteEntry.js",
-    "premium": "http://localhost:4400/remoteEntry.js",
+    "insurance": "http://localhost:4200/insurance/remoteEntry.js",
+    "premium": "http://localhost:4200/premium/remoteEntry.js",
   },
 
   shared: {
@@ -22,13 +22,7 @@ module.exports = {
     uniqueName: 'remote',
     publicPath: 'auto',
   },
-  headers: {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
-    "Access-Control-Allow-Headers": "X-Requested-With, content-type, Authorization"
-  },
-
-optimization: {
+  optimization: {
     runtimeChunk: false,
-},
+  }
 };

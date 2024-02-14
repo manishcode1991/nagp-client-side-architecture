@@ -7,9 +7,16 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+
+  current_time :string = ""
   constructor(private router: Router) {
+    this.listenCustomEvent()
 
-
+  }
+  listenCustomEvent() {
+    window.addEventListener("current_time", (dataReceived: any) => {
+      this.current_time = dataReceived.detail.message
+    })
   }
 
 }

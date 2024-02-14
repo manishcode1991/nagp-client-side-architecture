@@ -6,6 +6,7 @@ import { PayModule } from './pay/pay.module';
 
 export const routes: Routes = [
     { path: '', component: PayComponent },
+    { path: ':policy_no', component: PayComponent },
   ];
     
 

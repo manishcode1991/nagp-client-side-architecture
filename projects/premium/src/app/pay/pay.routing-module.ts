@@ -5,7 +5,8 @@ import { NgModule } from '@angular/core';
 import { PayComponent } from './pay.component';
 
 const routes: Routes = [
-  { path: '', component: PayComponent }
+  { path: '', component: PayComponent },
+  { path: ':policy_no', component: PayComponent },
 ];
  
 @NgModule({

@@ -8,6 +8,7 @@ import { Router } from '@angular/router';
 })
 export class AppComponent implements OnInit {
   title = 'container';
+  welcome_message :string = ""
   constructor(private router: Router) {
     this.listenCustomEvent()
 
@@ -18,7 +19,13 @@ export class AppComponent implements OnInit {
   }
   listenCustomEvent() {
     window.addEventListener("premium_redirect", (dataReceived: any) => {
-      this.router.navigate(["/premium", dataReceived.detail.policy_no])
+      const queryParams = { policy_no: dataReceived.detail.policy_no };  
+      // Navigate to the desired URL with query parameters
+      this.router.navigate(['/premium'], { queryParams: queryParams });
+
+    })
+    window.addEventListener("welcome_message", (dataReceived: any) => {
+      this.welcome_message = dataReceived
     })
   }
 }
