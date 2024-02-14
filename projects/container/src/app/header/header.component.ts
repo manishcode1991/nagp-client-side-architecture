@@ -11,6 +11,12 @@ export class HeaderComponent {
   current_time :string = ""
   constructor(private router: Router) {
     this.listenCustomEvent()
+    
+  }
+  public ngOnInit(): void {
+    setTimeout(() => {
+      this.current_time = "";
+    }, 2000); 
 
   }
   listenCustomEvent() {
