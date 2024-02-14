@@ -1,4 +1,0 @@
-
-/premium/* https://mfe-premium.netlify.app/:splat   200
-/insurance/*  https://mfe-insurance.netlify.app/:splat  200
-/*  /index.html  200

@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "build:container": "ng build  container",
-    "build:premium": "ng build  --proxy-config projects/container/src/proxy.conf.json premium",
-    "build:insurance": "ng build  --proxy-config projects/container/src/proxy.conf.json insurance",
+    "build:container": "ng build container",
+    "build:premium": "ng build premium",
+    "build:insurance": "ng build insurance",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "start": "concurrently \"npm run start:container\" \"npm run start:premium\" \"npm run start:insurance\" ",
