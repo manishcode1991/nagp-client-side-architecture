@@ -26,7 +26,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/container/src/favicon.ico",
-              "projects/container/src/assets"
+              "projects/container/src/assets",
+              "projects/container/src/_redirects"
 
             ],
             "styles": [
@@ -113,8 +114,8 @@
           "builder": "@netlify-builder/deploy:deploy",
           "options": {
             "outputPath": "dist/container",
-            "netlifyToken": "",
-            "siteId": ""
+            "netlifyToken": "nfp_9Q4Y9xdauEFrvqJWpWUoh4TGuhGmJwPme42c",
+            "siteId": "4b8fad36-e4b8-46ec-8241-2645f9d4a8c3"
           }
         }
       }
@@ -142,7 +143,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "projects/insurance/src/favicon.ico",
-              "projects/insurance/src/assets"
+              "projects/insurance/src/assets",
+              "projects/insurance/src/_redirects"
             ],
             "styles": [
               "projects/insurance/src/styles.scss",
@@ -227,8 +229,8 @@
           "builder": "@netlify-builder/deploy:deploy",
           "options": {
             "outputPath": "dist/insurance",
-            "netlifyToken": "",
-            "siteId": ""
+            "netlifyToken": "nfp_9Q4Y9xdauEFrvqJWpWUoh4TGuhGmJwPme42c",
+            "siteId": "454cfe13-0865-4a72-865a-27ab2e53c6cd"
           }
         }
       }
@@ -342,8 +344,8 @@
           "builder": "@netlify-builder/deploy:deploy",
           "options": {
             "outputPath": "dist/premium",
-            "netlifyToken": "",
-            "siteId": ""
+            "netlifyToken": "nfp_9Q4Y9xdauEFrvqJWpWUoh4TGuhGmJwPme42c",
+            "siteId": "33647716-ab7f-471c-9dac-079b9178f57a"
           }
         }
       }
